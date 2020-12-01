@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+img {
+    pointer-events: none;
+    user-select: none;
+}
+
 body {
     font-family: 'Kumbh Sans', sans-serif;
     background-color: hsl(185, 75%, 39%);
